@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Básicos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="caja-curso">
+        <h1>Flexbox Based on course: CSS La Guía Completa - Flexbox, CSS Grid, SASS +20 proyectos by Juan De la torre</h1>
+        <p> Pedro Fernando Flores Palmeros - pedrofpalmeros@gmail.com</p>
+    </div>
+
+    <div class="contenedor">
+
+        <h2>1.- Display Flex</h2>
+
+        <div class="d-flex">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+        </div>
+        <div>
+            <p>In this case display flex is used only to place the div's one after another</p>
+        </div>
+ 
+
+        <h2>2.- Flex Direction</h2>
+
+        <div class="d-flex-2">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+        </div>
+        <div>
+            <p>In this part the main idea is to test different options for flex-directions</p>
+            <ul>
+                <li><span class="notes-important">flex-direction: row</span> Is the default option and places the div at the beginning of the parent container in a row</li>
+                <li><span class="notes-important">flex-direction: row-reverse</span> with this one the order is 3|2|1 but they are placed at the end of the row</li>
+                <li><span class="notes-important">flex-direction: column</span> with this option the divs are placed in a single column in ascendent order</li>
+                <li><span class="notes-important">flex-direction: column-reverse</span> with this option the divs are placed in a single column but sorted in descendent order and at the end of the column</li>
+            </ul>
+        </div>
+
+        <h2>3.- Justify Content (Dirección Row)</h2>
+        <h3 class="subtitle">space-around</h3>
+        <div class="d-flex-3-0">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+        </div>
+
+        <h3 class="subtitle">space-between</h3>
+        <div class="d-flex-3-1">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+        </div>
+
+        <h3 class="subtitle">space-evenly</h3>
+        <div class="d-flex-3-2">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+        </div>
+
+        <h3 class="subtitle">space-end</h3>
+        <div class="d-flex-3-3">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+        </div>
+
+
+        <h2>4.- Justify Content (Dirección Column)</h2>
+
+        <div class="d-flex-4">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+        </div>
+
+        <h2>5.- Align Items (Dirección Row)</h2>
+
+        <div class="d-flex-5">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+        </div>
+
+        <h2>6.- Align Items (Dirección Columna)</h2>
+
+        <div class="d-flex-6">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+        </div>
+
+        <h2>7.- Align Items y JustifyContent</h2>
+
+        <div class="d-flex-7">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+        </div>
+
+        <h2>8.- Flex Basis</h2>
+
+        <div class="d-flex-8">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                Contenido
+            </div>
+        </div>
+
+        <h2>9.- Gap y Calc</h2>
+
+        <div class="d-flex-9">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+        </div>
+
+
+        <h2>10.- Flex Wrap</h2>
+
+        <div class="d-flex-10">
+            <div class="box">
+                1 Contenido
+            </div>
+            <div class="box">
+                2 Contenido
+            </div>
+            <div class="box">
+                3 Contenido
+            </div>
+            <div class="box">
+                4 Contenido
+            </div>
+            <div class="box">
+                5 Contenido
+            </div>
+            <div class="box">
+                6 Contenido
+            </div>
+        </div>
+
+
+        <h2>11.- Flex Grow</h2>
+
+        <div class="d-flex-11">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+
+
+        <h2>12.- Flex Shrink</h2>
+
+        <div class="d-flex-12">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        
+        <h2>13.- Flex Shorthand</h2>
+
+        <div class="d-flex-13">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+:root {
+    --azul: #1f306e;
+    --blanco: #FFF;
+    --naranja: #8f3b76;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /** 1REM = 10pX **/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+
+body {
+    background-color: var(--azul);
+    font-family:  'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1, h2 {
+    color: var(--blanco);
+    margin: 5rem 0;
+    padding: 1rem;
+    text-align: center;
+}
+.caja-curso {
+    background-color: var(--naranja);
+    color: var(--blanco);
+    padding: 5rem;
+    text-align: center;
+
+}
+.caja-curso h1 {
+    margin: 0;
+}
+.caja-curso p {
+    font-size: 2.4rem;
+}
+.caja-curso a {
+    color: var(--blanco);
+    display: inline-block;
+    font-size: 2.4rem;
+    padding: 2rem;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+.contenedor {
+    margin: 0 auto;
+    max-width: 120rem;
+}
+.box {
+    align-items: center;
+    background-color: var(--naranja);
+    border: 1rem solid #c7417b;
+    color: var(--blanco);
+    display: flex;
+    font-size: 4rem;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.contenedor > div {
+    background-color: var(--blanco);
+    padding: 5rem;
+}
+
+.notes-important{
+    color: #DE60CA;
+}
+
+/** TODO: Section 1**/
+.d-flex{
+    display: flex;
+}
+
+/** TODO: Section 2 **/
+.d-flex-2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/** TODO: Section 3 **/
+.d-flex-3-0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.d-flex-3-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.d-flex-3-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.d-flex-3-3{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+}
+
+.subtitle{
+    color: white;
+    text-align: center;
+}
+
