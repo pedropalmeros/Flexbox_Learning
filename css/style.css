@@ -112,3 +112,233 @@ h1, h2 {
     text-align: center;
 }
 
+/** TODO: Section 4 **/
+.part-4{
+    display:flex;
+    flex-direction: row;
+    height: 1000px;
+    justify-content: space-between;
+}
+
+.d-flex-4-0{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.d-flex-4-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.d-flex-4-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.d-flex-4-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;;
+}
+
+.d-flex-4-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;;
+}
+
+.d-flex-4-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;;
+}
+
+/** TODO: Section 5 **/
+
+.d-flex-5-0{
+    align-items: stretch; 
+    border: 3px solid var(--azul);
+    display: flex;
+    height: 400px;
+}
+
+.d-flex-5-1{
+    align-items: center;
+    border: 3px solid var(--azul);
+    display: flex;
+    height: 400px; 
+}
+
+.d-flex-5-2{
+    align-items: flex-start; 
+    border: 3px solid var(--azul);
+    display: flex;
+    height: 400px;
+}
+
+.d-flex-5-3{
+    align-items: flex-end; 
+    border: 3px solid var(--azul);
+    display: flex;
+    height: 400px;
+}
+
+/** TODO: Part 06 **/
+
+
+.d-flex-6-0{
+    align-items: flex-start;
+    border: 3px solid var(--azul);
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex-6-1{
+    align-items: center;
+    border: 3px solid var(--azul);
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex-6-2{
+    align-items: flex-end;
+    border: 3px solid var(--azul);
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex-6-3{
+    align-items: stretch;
+    border: 3px solid var(--azul);
+    display: flex;
+    flex-direction: column;
+}
+
+/** TODO: Part 07 **/
+.d-flex-7{
+    align-items: flex-start;
+    border: 3px solid var(--azul);
+    display: flex;
+
+    flex-direction: row;
+    height: 800px; 
+    justify-content: flex-end;
+
+}
+
+/** TODO: Part 08 **/
+.d-flex-8-0{
+    display: flex;   
+}
+
+.d-flex-8-0 .box{
+    flex-basis: 33.3%;
+}
+
+.d-flex-8-1{
+    display: flex;   
+}
+
+.d-flex-8-1 .box{
+    flex-basis: 200px;
+}
+
+.d-flex-8-2{
+    display: flex;   
+}
+
+.d-flex-8-2 .box{
+    width: 200px;;
+}
+
+/** TODO: Part 9 **/
+.d-flex-9-gap{
+    display: flex;
+    gap: 2rem;
+}
+.d-flex-9-gap .box{
+    flex-basis: 33.3%
+}
+
+.d-flex-9-calc{
+    display: flex;
+    justify-content: space-between;
+}
+.d-flex-9-calc .box{
+    flex-basis: calc( 33.3% - 1rem );
+}
+
+/** TODO: Part 10 **/
+.d-flex-10-0{
+    display: flex;
+    flex-basis: 33.3%;
+    flex-wrap: nowrap;
+}
+
+.d-flex-10-1{
+    display: flex;
+    flex-basis: 33.3%;
+    flex-wrap: wrap;
+}
+
+.d-flex-10-2{
+    display: flex;
+    flex-basis: 33.3%;
+    flex-wrap: wrap-reverse;
+}
+
+/** TODO Part 11 **/
+.d-flex-11-0{
+    display: flex;
+}
+
+.d-flex-11-0 .box:nth-child(1){
+    flex-grow:2;
+}
+
+.d-flex-11-0 .box:nth-child(2){
+    flex-grow:1;
+}
+
+.d-flex-11-0 .box:nth-child(3){
+    flex-grow:1;
+}
+
+.d-flex-11-1{
+    display: flex;
+}
+
+.d-flex-11-1 .box{
+    flex-grow:1;
+}
+
+/** TODO Part 12 **/
+.d-flex-12{
+    display: flex;
+}
+
+.d-flex-12 .box{
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1; 
+}
+
+.d-flex-12 .box:nth-child(3){
+    flex-shrink: 2;
+}
+
+/** TODO: Part 13 **/
+.d-flex-13{
+    display: flex;
+}
+
+.d-flex-13 .box{
+
+    flex: 1 1 33.3%;
+    flex-basis: 33.3%;
+    flex-grow: 1; 
+    flex-shrink: 1;
+}
